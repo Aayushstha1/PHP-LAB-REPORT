@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Registration Form</title>
+</head>
+<body>
+  <h1>Registration Form</h1>
+  <form id="registrationForm">
+    <label>Email: <input type="text" id="email"></label><br>
+    <label>Age: <input type="text" id="age"></label><br>
+    <label>Password: <input type="password" id="password"></label><br>
+    <label>Confirm Password: <input type="password" id="confirmPassword"></label><br>
+    <label>Zip Code: <input type="text" id="zipCode"></label><br>
+    <label>Website URL: <input type="text" id="url"></label><br>
+    <label>Date of Birth: <input type="date" id="date"></label><br>
+    <label>File Upload: <input type="file" id="file"></label><br>
+    <label>Country: 
+      <select id="country">
+        <option value="">Select</option>
+        <option value="USA">USA</option>
+        <option value="India">India</option>
+      </select>
+    </label><br>
+    <label><input type="checkbox" id="terms"> I agree to the terms</label><br>
+    <button type="button" id="submitBtn">Submit</button>
+    <p id="errorMessages" style="color: red;"></p>
+  </form>
+  <script src="simple-validation.js"></script>
+</body>
+</html>
